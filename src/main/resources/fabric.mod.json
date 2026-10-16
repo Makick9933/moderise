@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "chatherlper",
+  "version": "1.0.0",
+  "name": "Chat Helper",
+  "description": "Помощник модератора",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.yourname.mchelper.ChatHelperClient"
+    ]
+  },
+  "mixins": [
+    "mchelper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
